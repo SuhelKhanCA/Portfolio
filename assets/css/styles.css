@@ -549,3 +549,27 @@ img {
     width: 450px;
   }
 }
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+header.dark-mode, footer.dark-mode {
+  background-color: #333;
+}
+
+.nav__link.dark-mode {
+  color: #e0e0e0;
+}
+
+.nav__menu.dark-mode {
+  background-color: #333;
+}
+
+.home__title-color.dark-mode {
+  color: #e0e0e0;
+}
+
+/* Add specific elements that need dark mode styling */

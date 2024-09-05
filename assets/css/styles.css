@@ -573,3 +573,84 @@ header.dark-mode, footer.dark-mode {
 }
 
 /* Add specific elements that need dark mode styling */
+
+/* General button styling */
+.toggle-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem; /* Adjust size as per your design */
+  color: var(--second-color); /* Light mode color */
+  transition: color 0.3s ease-in-out;
+}
+
+.toggle-button i {
+  font-size: 2rem; /* Adjust the icon size */
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Change the color and icon for dark mode */
+body.dark-mode .toggle-button {
+  color: #e0e0e0; /* Dark mode color */
+}
+
+body.dark-mode .toggle-button i {
+  transform: rotate(270deg); /* Add a rotation effect */
+}
+
+
+/* Default Light Mode */
+.home__social-icon {
+  color: var(--second-color); /* Light mode text color */
+  transition: color 0.3s ease-in-out;
+}
+
+/* Hover effect in light mode */
+.home__social-icon:hover {
+  color: var(--first-color); /* Change color on hover */
+}
+
+/* Dark Mode Styles */
+body.dark-mode .home__social-icon {
+  color: #e0e0e0; /* Light text color for dark mode */
+}
+
+/* Dark mode hover effect */
+body.dark-mode .home__social-icon:hover {
+  color: #ffffff; /* Bright white color on hover */
+}
+
+/* Additional for resume link */
+body.dark-mode .home__social-icon a {
+  color: #e0e0e0;
+}
+
+body.dark-mode .home__social-icon a:hover {
+  color: #ffffff;
+}
+
+body.dark-mode .home__blob {
+  fill:  #444;
+}
+
+body.dark-mode .l-header{
+  background-color: #444;
+  
+}
+
+body.dark-mode .nav__link {
+  position: relative;
+  color: #fff;
+}
+
+body.dark-mode .nav__logo{
+  color: #fff;
+}
+
+body.dark-mode .section-title{
+  color: #fff;
+}
+
+body.dark-mode .about__img{
+  background-color: #444;
+}
